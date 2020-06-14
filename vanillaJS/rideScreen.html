@@ -1,0 +1,41 @@
+<html>
+
+<body>
+    <link rel="stylesheet" href="./index.css" />
+    <script type="module" src="addCarDetails.js"></script>
+    <div class="flex-column">
+        <form class="height-100">
+            <div id="login" class="tabcontent flex-row" style="height: 55px;">
+                <img src="images/car.png" alt="Car" width="50" height="60">
+                <h2> &nbsp;&nbsp; Pick a Ride</h2>
+            </div>
+            <div class="container flex-column" style="background-color: gainsboro;">
+                <!-- <div > -->
+                <div class="flex-row" style="justify-content: space-around;">
+                    <div class='container flex-column' style="width: 25%; background-color: white">
+                        <label>Start from</label>
+                        <input type="text" name="startfrom" id="startfrom" placeholder="Koramangala" />
+                    </div>
+                    <div class='container flex-column' style="width: 25%; background-color: white">
+                        <label>Destination</label>
+                        <input type="text" name="destination" id="destination" placeholder="Whitefield" />
+                    </div>
+                </div>
+
+                <!-- <div class="container flex-column" style="width: 30%;">
+                        <label>Destination</label>
+                        <input type="text" name="destination" id="destination" placeholder="Whitefield" />
+                    </div> -->
+                <!-- </div> -->
+            </div>
+            <div id="ride" class="container flex-column">
+                <div id="rideInternal" class="flex-row" style="justify-content: space-around; flex-wrap: wrap;">
+
+                </div>
+            </div>
+    </div>
+    </form>
+    </div>
+</body>
+
+</html>
